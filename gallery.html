@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitooton - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>Sitooton</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Our Gallery</h1>
+            <p class="fade-in">Explore our portfolio of beautiful garden transformations and landscaping projects</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons fade-in">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="landscape">Landscape Design</button>
+                <button class="filter-btn" data-filter="garden">Garden Installation</button>
+                <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+                <button class="filter-btn" data-filter="sustainable">Sustainable</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <article class="gallery-item fade-in" data-category="landscape">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/ashes garden.jpg" alt="Garden transformation" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Garden Transformation</h3>
+                                    <p>Complete garden redesign with modern landscaping and sustainable features</p>
+                                    <span class="project-type">Landscape Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Garden Transformation</h3>
+                            <p>Complete garden redesign with modern landscaping and sustainable features</p>
+                            <span class="project-type">Landscape Design</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="garden">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Aquatic garden 2.JPG" alt="Aquatic garden feature" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Water Feature</h3>
+                                    <p>Custom water feature with aquatic plants and lighting</p>
+                                    <span class="project-type">Garden Installation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Water Feature</h3>
+                            <p>Custom water feature with aquatic plants and lighting</p>
+                            <span class="project-type">Garden Installation</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="sustainable">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Gravel garden 1.jpg" alt="Gravel garden" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Gravel Garden</h3>
+                                    <p>Low-maintenance gravel garden with drought-resistant plants</p>
+                                    <span class="project-type">Sustainable</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Gravel Garden</h3>
+                            <p>Low-maintenance gravel garden with drought-resistant plants</p>
+                            <span class="project-type">Sustainable</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="landscape">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Classic seating 1.jpg" alt="Classic seating area" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Classic Seating Area</h3>
+                                    <p>Elegant outdoor seating with traditional landscaping</p>
+                                    <span class="project-type">Landscape Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Classic Seating Area</h3>
+                            <p>Elegant outdoor seating with traditional landscaping</p>
+                            <span class="project-type">Landscape Design</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="maintenance">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Nature reserve 1.JPG" alt="Nature reserve maintenance" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Nature Reserve</h3>
+                                    <p>Ongoing maintenance of natural habitats and wildlife areas</p>
+                                    <span class="project-type">Maintenance</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Nature Reserve</h3>
+                            <p>Ongoing maintenance of natural habitats and wildlife areas</p>
+                            <span class="project-type">Maintenance</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="garden">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Aquatic garden 1.JPG" alt="Herb garden" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Herb Garden</h3>
+                                    <p>Functional herb garden with culinary and medicinal plants in raised beds</p>
+                                    <span class="project-type">Garden Installation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Herb Garden</h3>
+                            <p>Functional herb garden with culinary and medicinal plants in raised beds</p>
+                            <span class="project-type">Garden Installation</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="sustainable">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Gravel garden 2.jpg" alt="Sustainable gravel garden" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Sustainable Design</h3>
+                                    <p>Eco-friendly landscaping with native plants and water conservation</p>
+                                    <span class="project-type">Sustainable</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Sustainable Design</h3>
+                            <p>Eco-friendly landscaping with native plants and water conservation</p>
+                            <span class="project-type">Sustainable</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="landscape">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Lakeside 1.jpg" alt="Lakeside landscape" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Lakeside Landscape</h3>
+                                    <p>Stunning lakeside property with natural landscaping</p>
+                                    <span class="project-type">Landscape Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Lakeside Landscape</h3>
+                            <p>Stunning lakeside property with natural landscaping</p>
+                            <span class="project-type">Landscape Design</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="gallery-item fade-in" data-category="maintenance">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <img src="images/Nature reserve 2.JPG" alt="Nature reserve maintenance" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Habitat Maintenance</h3>
+                                    <p>Professional maintenance of natural habitats and ecosystems</p>
+                                    <span class="project-type">Maintenance</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Habitat Maintenance</h3>
+                            <p>Professional maintenance of natural habitats and ecosystems</p>
+                            <span class="project-type">Maintenance</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Project Stats -->
+    <section class="project-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2>Inspired by Our Work?</h2>
+                <p>Let us create a beautiful garden transformation for your space.</p>
+                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sitooton</h3>
+                    <p>Creating beautiful outdoor spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Landscape Design</a></li>
+                        <li><a href="services.html">Garden Maintenance</a></li>
+                        <li><a href="services.html">Planting</a></li>
+                        <li><a href="services.html">Irrigation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@sitooton.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Service Area: Greater London & Surrey</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sitooton. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
